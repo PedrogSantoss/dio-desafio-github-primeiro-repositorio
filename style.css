@@ -1,0 +1,47 @@
+body{
+    background-color: #fff;
+    font-family: Verdana;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px; 
+}
+#title, .subtitle{
+    color: black;
+}
+#title{
+    font-size: 30px;
+    text-transform: uppercase;    
+}
+.subtitle{
+    font-style: italic;
+}
+.post_objetivo,.post_resume,.post_informatica, .post_qualificação{
+    color: blue;
+}
+.subtitle{
+    font-size: 16px;
+}
+.post_objetivo,.post_informatica ,.post_qualificação{
+    font-size: 16px;
+    font-style: normal;
+}
+.post_resume{
+    font-size: 16px;
+    font-style: normal;
+}
+.photo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.contato_list{
+    list-style-type: none;
+    font-size: small;
+    padding: 0%;
+}
+.contato_list li a{
+    color: blue;
+}
